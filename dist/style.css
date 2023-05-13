@@ -4,7 +4,6 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
 .navbar {
@@ -45,6 +44,8 @@ body {
 
  container { 
     height: 1em; 
+    display: inline-flex;
+    justify-content: center;
     
 }
 
