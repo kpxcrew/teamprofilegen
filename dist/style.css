@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.navbar {
+   background-color: #140D4F; 
+   display: flex;
+   justify-content: center;
+   color: #eeeeee;
+   font-size: 60px;
+   animation-name: Headerbackgroundpalette;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: linear; 
+  
+}
+@keyframes Headerbackgroundpalette {
+    0% {
+      background: #EA7AF4;
+    }
+    20% {
+      background: #B43E8F;
+    }
+      40% {
+      background: #F15BB5;
+    }
+    60% {
+      background: #3B0086;
+    }
+    80% {
+      background: #290628;
+    }
+    100% {
+      background: #9B5DE5;
+    }
+  }
+
+
+
+ container { 
+    height: 1em; 
+    
+}
+
+
+.card-title {
+    background-color:#140D4F ;
+    color: #eeeeee;
+    text-align: center;
+    animation-name: Cardbackgroundpalette;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear; 
+}
+@keyframes Cardbackgroundpalette {
+    0% {
+      background: #9B5DE5;
+    }
+    20% {
+      background: #290628;
+    }
+      40% {
+      background: #3B0086;
+    }
+    60% {
+      background: #F15BB5;
+    }
+    80% {
+      background: #B43E8F;
+    }
+    100% {
+      background: #EA7AF4;
+    }
+  }
+
+.card-body {
+    background-color:#eeeeee ;
+    color: #140D4F;
+    margin-top: -5%
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 110px auto;
+    
+}
